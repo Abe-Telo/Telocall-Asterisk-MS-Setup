@@ -1,5 +1,6 @@
 The planed Structure
 
+``` 
 /etc/asterisk/extensions.conf
 /etc/asterisk/extensions.d/
   /etc/asterisk/extensions.d/global/
@@ -21,7 +22,9 @@ The planed Structure
     inbound.conf
     outbound.conf
     routes.conf
-    
+```
+
+
     
 in 
 extensions.conf 
