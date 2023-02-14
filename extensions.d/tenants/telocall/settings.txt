@@ -1,4 +1,26 @@
+//GUI Web interface DB planning
+
+//Evryone roles, a user can have as many rules they need. 
+admin = " will will be able to manage evryone"
+
+
+
+//This DB will be for the we portal
+login = ""
+password = "" //Hash
+date_created = ""
+dateLast_login = ""
+email = ""
+phone = ""
+
+// the permishion the user has (for the login)
+permishions
+
+
+
+// This is for internal astrisk use, each tenet can change as they desire with correct permishions.
 company = "telocal"
 user = "tenet1"
-did = "123456789 > IVR, 0987654321 > user"
+did = "123456789,"
+calleris = ""
 context = "$company"
