@@ -17,10 +17,13 @@ phone = ""
 permishions
 
 
-
-// This is for internal astrisk use, each tenet can change as they desire with correct permishions.
+//planning stage
+// This is for internal astrisk use, each tenet can change as they desire with correct gui permishions.
+// This will be a global by tenet verbal settings, Asterisk can get this info by calling it eg $[company], $[user.1]. Based on this settings files should auto poplate. 
 company = "telocal"
-user = "tenet1"
+user = "tenet1,tenet1"
 did = "123456789,"
-calleris = ""
-context = "$company"
+callerID = ""
+context = "$company" //Directroy of company.
+callgroups = ""
+route = "$did > IVR"
